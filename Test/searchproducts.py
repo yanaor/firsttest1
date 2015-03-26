@@ -1,8 +1,14 @@
+
 __author__ = 'yanaor'
 
+import os
 from selenium import webdriver
 # create a new Firefox session
-driver = webdriver.Firefox()
+# get the path of IEDriverServer
+dir = os.path.dirname(__file__)
+chrome_driver_path = dir + "\Chromedriver.exe"
+# create a new Internet Explorer session
+driver = webdriver.Chrome(chrome_driver_path)
 driver.implicitly_wait(30)
 driver.maximize_window()
 # navigate to the application home page
