@@ -7,6 +7,10 @@ from __builtin__ import classmethod
 class HomePageTest(unittest.TestCase):
     @classmethod
     def setUp(cls):
+        # create a new Firefox session """
+        cls.driver = webdriver.Firefox()
+        cls.driver.implicitly_wait(30)
+        cls.driver.maximize_window()
         # navigate to the application home page """
         cls.driver.get("http://demo.magentocommerce.com/")
     def test_search_field(self):
