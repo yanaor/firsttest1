@@ -1,7 +1,7 @@
 
 __author__ = 'yanaor'
 
-import unittest, csv
+import xlrd, unittest
 from selenium import webdriver
 from ddt import ddt, data, unpack
 
@@ -9,15 +9,12 @@ from ddt import ddt, data, unpack
 def get_data(file_name):
     # create an empty list to store rows
     rows = []
-    # open the CSV file
-    data_file = open(file_name, "rb")
-    # create a CSV Reader from CSV file
-    reader = csv.reader(data_file)
-    # skip the headers
-    next(reader, None)
-    # add rows from reader to list
-    for row in reader:
-        rows.append(row)
+    # open the specified Excel spreadsheet as workbook
+    book = xlrd.open_workbook(file_name)
+    # get the first sheet
+    sheet = book.sheet_by_index(0)
+    # iterate through the sheet and get data from rows in list
+    for row_idx in range(1, sheet.nrows):rows.append(list(sheet.row_values(row_idx, 0, sheet.ncols)))
     return rows
 
 @ddt
@@ -32,7 +29,7 @@ class SearchDDT(unittest.TestCase):
         self.driver.get("http://demo.magentocommerce.com/")
 
     # specify test data using @data decorator
-    @data(*get_data("testdata.csv"))
+    @data(*get_data("TestData.xlsx"))
     @unpack
     def test_search(self, search_value, expected_count):
         # get the search textbox
@@ -59,4 +56,4 @@ class SearchDDT(unittest.TestCase):
         # close the browser window
         self.driver.quit()
   #  if __name__ == '__main__':
-    #    unittest.main()
+    #    unittest.main()__author__ = 'yanaor'
