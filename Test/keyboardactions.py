@@ -15,12 +15,14 @@ class HotkeyTest(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome()
         self.driver.get(self.URL)
-        self.driver.implicitly_wait(30)
+        self.driver.implicitly_wait(10)
         self.driver.maximize_window()
 
     def test_hotkey(self):
         driver = self.driver
-        shift_n_label = WebDriverWait(self.driver, 10).until(expected_conditions.visibility_of_element_located((By.ID, "_shift_n")))
+
+        shift_n_label = WebDriverWait(self.driver, 3).until(expected_conditions.visibility_of_element_located((By.ID,"_shift_n")))
+
         ActionChains(driver).key_down(Keys.SHIFT).send_keys('n').key_up(Keys.SHIFT).perform()
         self.assertEqual("rgba(12, 162, 255, 1)", shift_n_label.value_of_css_property("background-color"))
 
