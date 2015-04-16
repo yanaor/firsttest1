@@ -60,13 +60,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Handling pop-up.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Handling pop-up.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Handling pop-up.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.03373016" vertical-offset="51" max-vertical-offset="561">
+            <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="561">
               <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
                 <element signature="e#23#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cookie.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cookie.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.13492064" vertical-offset="0" max-vertical-offset="663">
+              <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+              <folding>
+                <element signature="e#23#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,6 +113,7 @@
         <option value="$PROJECT_DIR$/Capturing screenshots.py" />
         <option value="$PROJECT_DIR$/Recording a video.py" />
         <option value="$PROJECT_DIR$/Handling pop-up.py" />
+        <option value="$PROJECT_DIR$/cookie.py" />
       </list>
     </option>
   </component>
@@ -165,33 +178,7 @@
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in Handling pop-up">
-    <configuration default="false" name="Unittests in Capturing screenshots" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Test" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Capturing screenshots.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests in cookie">
     <configuration default="false" name="Unittests in ScreenShotTest (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -275,6 +262,30 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Test" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Handling pop-up.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in cookie" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Test" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cookie.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -411,19 +422,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in Capturing screenshots" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in ScreenShotTest (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in Recording a video" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest SearchProductTest.test_search_by_category" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in Handling pop-up" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in ScreenShotTest (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in Recording a video" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest SearchProductTest.test_search_by_category" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in Handling pop-up" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in cookie" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in Handling pop-up" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in Recording a video" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest SearchProductTest.test_search_by_category" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in ScreenShotTest (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in Capturing screenshots" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in cookie" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in Handling pop-up" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in Recording a video" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest SearchProductTest.test_search_by_category" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in ScreenShotTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -911,10 +922,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Handling pop-up.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03373016" vertical-offset="51" max-vertical-offset="561">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="561">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="e#23#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13492064" vertical-offset="0" max-vertical-offset="663">
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
