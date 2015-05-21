@@ -39,7 +39,7 @@
       <file leaf-file-name="searchtestddt.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/searchtestddt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+            <state vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="799">
               <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="16" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
@@ -48,11 +48,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchTestDdtFromExcel.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="searchtestddtfromcsv.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/searchtestddtfromcsv.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105">
+              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchTestDdtFromExcel.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SearchTestDdtFromExcel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="448" max-vertical-offset="1105">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="21" />
+            <state vertical-scroll-proportion="-0.8888889" vertical-offset="499" max-vertical-offset="1105">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="33" />
               <folding>
                 <element signature="e#24#45#0" expanded="true" />
               </folding>
@@ -63,7 +73,7 @@
       <file leaf-file-name="RegisterNewUser.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RegisterNewUser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="614" max-vertical-offset="1105">
+            <state vertical-scroll-proportion="0.0" vertical-offset="556" max-vertical-offset="1105">
               <caret line="56" column="59" selection-start-line="56" selection-start-column="59" selection-end-line="56" selection-end-column="59" />
               <folding>
                 <element signature="e#23#53#0" expanded="true" />
@@ -72,13 +82,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hometestvaimo.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hometestvaimo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hometestvaimo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4940476" vertical-offset="278" max-vertical-offset="782">
-              <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="850">
+              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
               <folding>
-                <element signature="e#24#54#0" expanded="true" />
+                <element signature="e#24#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,7 +97,7 @@
       <file leaf-file-name="homepagetest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homepagetest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1853">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1349" max-vertical-offset="1853">
               <caret line="20" column="72" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="72" />
               <folding>
                 <element signature="e#22#37#0" expanded="true" />
@@ -125,8 +135,8 @@
         <option value="$PROJECT_DIR$/Recording a video.py" />
         <option value="$PROJECT_DIR$/Handling pop-up.py" />
         <option value="$PROJECT_DIR$/cookie.py" />
-        <option value="$PROJECT_DIR$/hometestvaimo.py" />
         <option value="$PROJECT_DIR$/RegisterNewUser.py" />
+        <option value="$PROJECT_DIR$/hometestvaimo.py" />
       </list>
     </option>
   </component>
@@ -192,7 +202,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python tests.Unittests in hometestvaimo">
-    <configuration default="false" name="Unittests in authorization" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittests in Authorization" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -203,7 +213,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Test" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hometestvaimo.py" />
-      <option name="CLASS_NAME" value="authorization" />
+      <option name="CLASS_NAME" value="Authorization" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_CLASS" />
@@ -216,7 +226,7 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests in authorization (2)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittests in Authorization (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -227,7 +237,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Test" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hometestvaimo.py" />
-      <option name="CLASS_NAME" value="authorization" />
+      <option name="CLASS_NAME" value="Authorization" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_CLASS" />
@@ -240,7 +250,7 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittest RegisterNewUser.test_register_new_user" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittest Authorization.test_login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -250,9 +260,9 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Test" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RegisterNewUser.py" />
-      <option name="CLASS_NAME" value="RegisterNewUser" />
-      <option name="METHOD_NAME" value="test_register_new_user" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hometestvaimo.py" />
+      <option name="CLASS_NAME" value="Authorization" />
+      <option name="METHOD_NAME" value="test_login" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -264,7 +274,7 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests in authorization (3)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittests in hometestvaimo" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -275,10 +285,10 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Test" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hometestvaimo.py" />
-      <option name="CLASS_NAME" value="authorization" />
+      <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
@@ -288,7 +298,7 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests in hometestvaimo" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittests in hometestvaimo (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -469,19 +479,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in authorization" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in authorization (2)" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest RegisterNewUser.test_register_new_user" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in authorization (3)" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in hometestvaimo" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in Authorization" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in Authorization (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest Authorization.test_login" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in hometestvaimo" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in hometestvaimo (1)" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in hometestvaimo" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in authorization (3)" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest RegisterNewUser.test_register_new_user" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in authorization (2)" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in authorization" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in Authorization" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest Authorization.test_login" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in hometestvaimo (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in Authorization (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -499,7 +509,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -546,16 +556,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Capturing screenshots.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="527">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding>
-            <element signature="e#23#53#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Recording a video.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="211" max-vertical-offset="782">
@@ -628,6 +628,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -755,13 +756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/searchtestddtfromcsv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="441" max-vertical-offset="1139">
-          <caret line="6" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testdata.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
@@ -880,16 +874,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/searchtestddt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="16" />
-          <folding>
-            <element signature="e#24#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Recording a video.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.28373015" vertical-offset="211" max-vertical-offset="782">
@@ -930,13 +914,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SearchTestDdtFromExcel.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/utrunner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1105">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="21" />
-          <folding>
-            <element signature="e#24#45#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.057301294" vertical-offset="2094" max-vertical-offset="2635">
+          <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -950,12 +932,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/searchtestddt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="16" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/searchtestddtfromcsv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hometestvaimo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4940476" vertical-offset="278" max-vertical-offset="782">
-          <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="850">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
           <folding>
-            <element signature="e#24#54#0" expanded="true" />
+            <element signature="e#24#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SearchTestDdtFromExcel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.8888889" vertical-offset="499" max-vertical-offset="1105">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="33" />
+          <folding>
+            <element signature="e#24#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
